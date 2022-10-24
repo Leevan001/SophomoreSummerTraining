@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="c66f8f34dc0d40f68057f0e8c8d19629" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c66f8f34dc0d40f68057f0e8c8d19629 = echarts.init(
+            document.getElementById('c66f8f34dc0d40f68057f0e8c8d19629'), 'white', {renderer: 'canvas'});
+        var option_c66f8f34dc0d40f68057f0e8c8d19629 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u7535\u5f71\u7968\u623f\uff1a",
+            "legendHoverLink": true,
+            "data": [
+                46142,
+                45321,
+                42650,
+                42239,
+                36370,
+                31971,
+                24543,
+                24066,
+                21600,
+                21590,
+                20185,
+                19892,
+                16680,
+                16104,
+                14315
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "color":         function (params) {            if (params.value > 100000 ) {                return 'red';            } else if (params.value > 70000 ) {                return 'pink';            }            return 'blue';        }        
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7535\u5f71\u7968\u623f\uff1a"
+            ],
+            "selected": {
+                "\u7535\u5f71\u7968\u623f\uff1a": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "The Eight Hundred",
+                "Demon Slayer the Movie: Mugen Train",
+                "Bad Boys for Life",
+                "My People, My Homeland",
+                "Tenet",
+                "Sonic the Hedgehog",
+                "Dolittle",
+                "Legend of Deification",
+                "A Little Red Flower",
+                "The Croods: A New Age",
+                "Birds of Prey",
+                "Shock Wave 2",
+                "Wonder Woman 1984",
+                "The Sacrifice",
+                "The Invisible Man"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "2020\u5e74\u7535\u5f71\u7968\u623f\u6536\u5165TOP15(\u5355\u4f4d:\u4e07\u7f8e\u5143)",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_c66f8f34dc0d40f68057f0e8c8d19629.setOption(option_c66f8f34dc0d40f68057f0e8c8d19629);
+    </script>
+</body>
+</html>

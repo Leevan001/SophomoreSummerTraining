@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/macarons.js"></script>
+
+</head>
+<body>
+    <div id="341966b6881a4d168b00ac28d2aa7b2d" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_341966b6881a4d168b00ac28d2aa7b2d = echarts.init(
+            document.getElementById('341966b6881a4d168b00ac28d2aa7b2d'), 'macarons', {renderer: 'canvas'});
+        var option_341966b6881a4d168b00ac28d2aa7b2d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "pie",
+            "name": "2016~2022\u5e74\u7968\u623fTOP100\u7684\u5e74\u4ee3\u5206\u5e03\u56fe\uff1a",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": 2016,
+                    "value": 19
+                },
+                {
+                    "name": 2017,
+                    "value": 21
+                },
+                {
+                    "name": 2018,
+                    "value": 22
+                },
+                {
+                    "name": 2019,
+                    "value": 20
+                },
+                {
+                    "name": 2020,
+                    "value": 4
+                },
+                {
+                    "name": 2021,
+                    "value": 9
+                },
+                {
+                    "name": 2022,
+                    "value": 5
+                }
+            ],
+            "radius": [
+                "0%",
+                "80%"
+            ],
+            "center": [
+                460,
+                280
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022
+            ],
+            "selected": {},
+            "show": true,
+            "left": "5%",
+            "top": "20%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "2016~2022\u5e74\u5168\u7403\u7535\u5f71\u7968\u623fTop100\u7684\u5e74\u4ee3\u5206\u5e03\u997c\u72b6\u56fe\uff1a",
+            "subtext": "\u5355\u4f4d\uff1a\u90e8",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_341966b6881a4d168b00ac28d2aa7b2d.setOption(option_341966b6881a4d168b00ac28d2aa7b2d);
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+      <section class="u-align-right u-clearfix u-image u-section-3" id="carousel_096e">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+          <div class="u-black u-container-style u-list-item u-opacity u-opacity-50 u-repeater-item u-video-cover">
+          </div>
+          </div>
+    </section>
+
+
+          <section class="u-align-right u-clearfix u-image u-section-12" >
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+          <div class="u-black u-container-style u-list-item u-opacity u-opacity-50 u-repeater-item u-video-cover">
+          </div>
+          </div>
+    </section>
+
+               <section class="u-align-right u-clearfix u-image u-section-12" >
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+          <div class="u-black u-container-style u-list-item u-opacity u-opacity-50 u-repeater-item u-video-cover">
+          </div>
+                <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      </div>
+          </div>
+    </section>
+
+
+
+
+    .u-section-12 {
+  background-image: url("images/1498872925.jpg");
+  background-position: 20% 50%;
+}.u-section-12 .u-sheet-1 {
+  min-height: 740px;
+}
+@media (max-width: 575px) {
+  .u-section-12 {
+    background-position: 36.88% 50%;
+  }
+
+  .u-section-12 .u-list-1 {
+    width: 340px;
+    grid-template-columns: repeat(2, calc(((100% - 340px) / 2)  + 160px));
+  }
+}
+
+
+<h1 class="u-custom-font u-font-playfair-display u-text u-text-1">Visualization of Movie Box Office</h1>

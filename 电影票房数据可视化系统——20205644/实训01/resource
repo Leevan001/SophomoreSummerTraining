@@ -1,0 +1,23 @@
+url 2018年url
+https://www.maoyan.com/films?showType=3&yearId=13&sortId=3&offset=0
+具体某部电影的url
+https://www.maoyan.com/films/1200486
+字体在线编辑
+https://kekee000.github.io/fonteditor/
+
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+
+BOX_OFFICE
+https://www.boxofficemojo.com/year/world/?ref_=bo_nb_in_tab
+2021年票房的数据
+https://www.boxofficemojo.com/year/world/2021/
+
+    // *[ @ id = "table"] / div / table[2] / tbody / tr[2] / td[2] / a
+    // *[ @ id = "table"] / div / table[2] / tbody / tr[3] / td[2] / a
+    // *[ @ id = "table"] / div / table[2] / tbody / tr[2] / td[3]
+    // *[ @ id = "table"] / div / table[2] / tbody / tr[3] / td[3]
+    // *[ @ id = "table"] / div / table[2] / tbody / tr[201] / td[2] / a
+
+    //*[@id="table"]/div/table[2]/tbody/tr[2]/td[2]/a
+
+    'https://www.boxofficemojo.com/year/world/2021/'

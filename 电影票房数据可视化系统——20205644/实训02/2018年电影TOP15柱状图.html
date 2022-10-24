@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="9701715c75c94609bdc584b2d9c0d43c" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_9701715c75c94609bdc584b2d9c0d43c = echarts.init(
+            document.getElementById('9701715c75c94609bdc584b2d9c0d43c'), 'white', {renderer: 'canvas'});
+        var option_9701715c75c94609bdc584b2d9c0d43c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u7535\u5f71\u7968\u623f\uff1a",
+            "legendHoverLink": true,
+            "data": [
+                204835,
+                134691,
+                130846,
+                124280,
+                114846,
+                90365,
+                85608,
+                79111,
+                73454,
+                65485,
+                62267,
+                58289,
+                57933,
+                54418,
+                53024
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "color":         function (params) {            if (params.value > 100000 ) {                return 'red';            } else if (params.value > 70000 ) {                return 'pink';            }            return 'blue';        }        
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7535\u5f71\u7968\u623f\uff1a"
+            ],
+            "selected": {
+                "\u7535\u5f71\u7968\u623f\uff1a": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "Avengers: Infinity War",
+                "Black Panther",
+                "Jurassic World: Fallen Kingdom",
+                "Incredibles 2",
+                "Aquaman",
+                "Bohemian Rhapsody",
+                "Venom",
+                "Mission: Impossible - Fallout",
+                "Deadpool 2",
+                "Fantastic Beasts: The Crimes of Grindelwald",
+                "Ant-Man and the Wasp",
+                "Ready Player One",
+                "Operation Red Sea",
+                "Detective Chinatown 2",
+                "The Meg"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "2018\u5e74\u7535\u5f71\u7968\u623f\u6536\u5165TOP15(\u5355\u4f4d:\u4e07\u7f8e\u5143)",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_9701715c75c94609bdc584b2d9c0d43c.setOption(option_9701715c75c94609bdc584b2d9c0d43c);
+    </script>
+</body>
+</html>
